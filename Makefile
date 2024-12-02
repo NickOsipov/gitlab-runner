@@ -6,11 +6,11 @@ include .env
 .ONESHELL:
 .EXPORT_ALL_VARIABLES:
 
-download_log:
+download-log:
 	bash scripts/download_log.sh
 
-check_projects:
+check-projects:
 	python3 src/check_projects.py
 
-check_runners:
+check-runners:
 	python3 src/check_runners.py
