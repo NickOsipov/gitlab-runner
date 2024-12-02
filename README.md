@@ -52,8 +52,8 @@ terraform apply --auto-approve
 
 ```bash
 # Использование Make
-make check_runners
-make check_projects
+make check-runners
+make check-projects
 
 # Использование Invoke
 invoke check-runners
